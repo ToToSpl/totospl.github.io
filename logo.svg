@@ -1,0 +1,8 @@
+<svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .heavy {
+      font: bold 30px sans-serif;
+    }
+  </style>
+  <text x="7" y="20" class="heavt">JG</text>
+</svg>
