@@ -11,6 +11,9 @@ export default {
         "my-button-hover": "#AE4258",
         "my-contrast": "#09BC8A",
       },
+      fontFamily: {
+        special: ["Raleway", "sans-serif"],
+      },
     },
   },
   plugins: [],
