@@ -16,7 +16,7 @@ export type AppPathType = {
 export const appPaths: AppPathType[] = [
   {
     path: "/",
-    name: "About",
+    name: "Home",
     icon: <RxPerson />,
     page: <Home />,
   },
