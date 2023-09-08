@@ -6,11 +6,10 @@ export const ProfilePic = ({ url }: ProfilePicProps) => {
   return (
     <>
       <img
-        className="w-40 h-40 rounded-full border-my-soft-bg border-2"
+        className="w-32 h-32 rounded-full border-my-soft-bg border-2 ml-auto mr-auto"
         alt="profile picture"
         src={url}
       />
-      <h1 className="font-special text-xl text-center">Jacek Grzybowski</h1>
     </>
   );
 };

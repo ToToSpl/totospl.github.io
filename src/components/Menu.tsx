@@ -10,10 +10,10 @@ const Menu = ({ paths }: MenuProps) => {
   const location = useLocation();
 
   return (
-    <div className="border-r-2 px-2 py-2 border-my-soft-bg grid-cols-1 gap-2 h-screen overflow-auto">
-      <ProfilePic url="/profile.jpg" />
-      <div className="h-8" />
-      <div className="w-full">
+    <>
+      <div className="hidden sm:block flex-col border-r-2 px-2 py-2 border-my-soft-bg grid-cols-1 gap-2 h-screen overflow-auto">
+        <ProfilePic url="/profile.jpg" />
+        <div className="h-4" />
         {paths.map((p, i) => {
           return (
             <Link
@@ -33,9 +33,9 @@ const Menu = ({ paths }: MenuProps) => {
             </Link>
           );
         })}
+        <div className="mt-4">Socials</div>
       </div>
-      <div>Socials</div>
-    </div>
+    </>
   );
 };
 
