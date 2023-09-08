@@ -4,7 +4,7 @@ import Career from "./pages/Career";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Layout from "./components/Layout";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 
 export type AppPathType = {
   path: string;
@@ -41,7 +41,7 @@ export const appPaths: AppPathType[] = [
 ];
 
 function App() {
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: "/",
       element: <Layout />,
