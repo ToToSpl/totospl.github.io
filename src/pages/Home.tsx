@@ -14,6 +14,7 @@ function Home() {
         <img
           className="w-max md:w-8/12 rounded-md border-my-soft-bg border-2 ml-auto mr-auto"
           src="/plane_crash.jpg"
+          alt="profile with rc plane"
         />
       </div>
       <h1 className="my-4 font-bold font-special text-4xl">
@@ -31,6 +32,7 @@ function Home() {
         <img
           className="w-max md:w-8/12 rounded-md border-my-soft-bg border-2 ml-auto mr-auto"
           src="/profile_gimbal.jpg"
+          alt="profile photo by the window"
         />
       </div>
     </div>
