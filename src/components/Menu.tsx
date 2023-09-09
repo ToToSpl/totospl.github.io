@@ -13,7 +13,7 @@ const Menu = ({ paths }: MenuProps) => {
   return (
     <div className="hidden sm:flex flex-col border-r-2 px-2 py-2 border-my-soft-bg h-screen overflow-auto">
       <ProfilePic url="/profile.jpg" />
-      <div className="h-4" />
+      <div className="pt-4" />
       {paths.map((p, i) => {
         return (
           <Link
@@ -33,7 +33,7 @@ const Menu = ({ paths }: MenuProps) => {
           </Link>
         );
       })}
-      <div className="mt-auto mb-2 ml-auto mr-auto">
+      <div className="mt-auto mb-2 pt-4 ml-auto mr-auto">
         <Socials />
       </div>
     </div>
