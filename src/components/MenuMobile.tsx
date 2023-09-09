@@ -19,7 +19,7 @@ export const MenuMobile = ({ onClose, paths }: MenuMobileProps) => {
     <div className="fixed left-0 top-0 w-full h-full bg-opacity-50 bg-black z-[1055] overflow-y-auto overflow-x-hidden outline-none flex items-center">
       <div
         ref={wrapperRef}
-        className="relative bg-opacity-100 bg-my-bg w-full md:w-1/2 xl:w-2/5 m-4 md:m-auto bg-my-second border-my-soft-bg border-2 rounded-xl p-2"
+        className="relative bg-opacity-100 w-80 m-auto bg-my-second border-my-soft-bg border-2 rounded-xl p-2"
       >
         <button className="absolute right-2 text-2xl" onClick={() => onClose()}>
           <RxCross2 />

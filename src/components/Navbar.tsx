@@ -9,7 +9,7 @@ export const Navbar = () => {
   return (
     <>
       <h1
-        className="text-4xl sm:hidden m-1 absolute"
+        className="bg-black bg-opacity-50 rounded-md text-4xl sm:hidden m-1 absolute"
         onClick={() => setMenu(true)}
       >
         {menu ? <RxCross2 /> : <RxHamburgerMenu />}
