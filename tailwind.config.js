@@ -13,6 +13,7 @@ export default {
       },
       fontFamily: {
         special: ["Raleway", "sans-serif"],
+        basic: ["Urbanist", "sans-serif"],
       },
     },
   },
