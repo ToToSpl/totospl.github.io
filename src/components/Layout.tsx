@@ -5,10 +5,12 @@ import { Navbar } from "./Navbar";
 
 const Layout = () => {
   return (
-    <div className="flex flex-col text-white bg-my-bg">
-      <div className="grow flex">
-        <Menu paths={appPaths} />
-        <div className="grow overflow-auto h-screen">
+    <div className="text-white bg-my-bg">
+      <div className="flex flex-row">
+        <div className="flex-none">
+          <Menu paths={appPaths} />
+        </div>
+        <div className="overflow-auto h-screen">
           <Navbar />
           <Outlet />
         </div>
