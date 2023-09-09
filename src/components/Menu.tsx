@@ -10,7 +10,7 @@ type MenuProps = {
 
 const Menu = ({ paths }: MenuProps) => {
   return (
-    <div className="hidden sm:flex flex-col border-r-2 px-2 py-2 border-my-soft-bg h-screen overflow-auto">
+    <div className="hidden sm:flex flex-col border-r-2 px-2 py-2 bg-my-second border-my-soft-bg h-screen overflow-auto">
       <Link to="/">
         <ProfilePic url="/profile.jpg" />
       </Link>
