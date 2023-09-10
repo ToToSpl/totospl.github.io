@@ -1,18 +1,34 @@
+import ExpandCard from "../components/ExpandCard";
 import PageImg from "../components/PageImg";
 import PageP from "../components/PageP";
-import { PageWrapperProps } from "../components/PageWrapper";
+import { PageWrapper } from "../components/PageWrapper";
 import PageH1 from "../components/PaheH1";
 
 function Career() {
   return (
-    <PageWrapperProps>
+    <PageWrapper>
       <PageH1>My Career</PageH1>
-      <PageP>Something something</PageP>
-      <PageImg
-        src="/home/profile_gimbal.jpg"
-        alt="profile photo by the window"
-      />
-    </PageWrapperProps>
+      <PageP>
+        Over the years, I've had the privilege of gaining valuable experience
+        through my work and internships, with a particular focus on cutting-edge
+        fields like AI, web development, computer vision and unmanned aerial
+        vehicles.
+      </PageP>
+      <PageImg src="/career/hf_droniada.jpg" alt="High Flyers team" />
+      <ExpandCard
+        title="Fullstack developer and Drone programmer"
+        desc="2020 - 2023 LTA Design"
+        imgSrc="/career/lta/logo.jpg"
+      >
+        <PageP>
+          Over the years, I've had the privilege of gaining valuable experience
+          through my work and internships, with a particular focus on
+          cutting-edge fields like AI, web development, computer vision and
+          unmanned aerial vehicles.
+        </PageP>
+        <PageImg src="/career/hf_droniada.jpg" alt="High Flyers team" />
+      </ExpandCard>
+    </PageWrapper>
   );
 }
 
