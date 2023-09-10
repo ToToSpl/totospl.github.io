@@ -3,7 +3,7 @@ type PagePProps = {
 };
 
 export const PageP = ({ children }: PagePProps) => {
-  return <p className="mt-4 text-xl md:text-2xl text-justify">{children}</p>;
+  return <p className="text-lg md:text-xl text-justify">{children}</p>;
 };
 
 export default PageP;

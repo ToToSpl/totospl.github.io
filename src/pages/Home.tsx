@@ -1,11 +1,11 @@
 import PageImg from "../components/PageImg";
 import PageP from "../components/PageP";
-import { PageWrapperProps } from "../components/PageWrapper";
+import { PageWrapper } from "../components/PageWrapper";
 import PageH1 from "../components/PaheH1";
 
 function Home() {
   return (
-    <PageWrapperProps>
+    <PageWrapper>
       <PageH1>Greetings!</PageH1>
       <PageP>
         I am software developer who brings eight years of programming experience
@@ -29,7 +29,7 @@ function Home() {
         src="/home/profile_gimbal.jpg"
         alt="profile photo by the window"
       />
-    </PageWrapperProps>
+    </PageWrapper>
   );
 }
 
