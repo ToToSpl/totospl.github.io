@@ -26,12 +26,13 @@ export const appPaths: AppPathType[] = [
     icon: <RxBackpack />,
     page: <Career />,
   },
-  {
-    path: "/projects",
-    name: "Projects",
-    icon: <RxRocket />,
-    page: <Projects />,
-  },
+  // add later
+  // {
+  //   path: "/projects",
+  //   name: "Projects",
+  //   icon: <RxRocket />,
+  //   page: <Projects />,
+  // },
   {
     path: "/contact",
     name: "Contact",
