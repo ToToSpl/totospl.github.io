@@ -1,7 +1,7 @@
 import PageImg from "../components/PageImg";
 import PageP from "../components/PageP";
 import { PageWrapper } from "../components/PageWrapper";
-import PageH1 from "../components/PaheH1";
+import PageH1 from "../components/PageH1";
 
 function Home() {
   return (

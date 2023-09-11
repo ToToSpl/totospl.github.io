@@ -26,8 +26,8 @@ export const ExpandCard = ({
           />
         ) : null}
         <div>
-          <h1 className="text-xl md:text-2xl">{title}</h1>
-          <p className="text-lg md:text-xl ">{desc}</p>
+          <h1 className="text-lg md:text-xl">{title}</h1>
+          <p className="text-md md:text-lg ">{desc}</p>
         </div>
         <button
           name="expand"
@@ -39,9 +39,7 @@ export const ExpandCard = ({
           {!open ? <RxDoubleArrowDown /> : <RxDoubleArrowUp />}
         </button>
       </div>
-      {open ? (
-        <div className="p-2 text-lg md:text-xl text-justify">{children}</div>
-      ) : null}
+      {open ? <div className="p-2">{children}</div> : null}
     </div>
   );
 };
