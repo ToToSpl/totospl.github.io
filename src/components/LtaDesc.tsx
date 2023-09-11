@@ -30,7 +30,7 @@ export const LtaDesc = () => {
       <PageP>
         I developed all of these systems, which demanded knowledge in UAVs,
         backend systems, databases, and frontend development. I learned a lot
-        during this project and hope to apply what I've learned in my future
+        during this project and I hope to apply what I've learned in my future
         career.
       </PageP>
       <PageImg src="/career/lta/drones_swarm.jpg" alt="drones swarm" />

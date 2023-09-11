@@ -3,7 +3,9 @@ type PagePProps = {
 };
 
 export const PageP = ({ children }: PagePProps) => {
-  return <p className="text-md md:text-lg text-justify">{children}</p>;
+  return (
+    <p className="text-sm sm:text-md md:text-lg text-justify">{children}</p>
+  );
 };
 
 export default PageP;
