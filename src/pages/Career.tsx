@@ -6,6 +6,7 @@ import LtaDesc from "../components/LtaDesc";
 import HfDesc from "../components/HfDesc";
 
 export function Career() {
+  const spacer = <div className="h-8" />;
   return (
     <PageWrapper>
       <PageH1>My Career</PageH1>
@@ -17,8 +18,9 @@ export function Career() {
       </PageP>
       <PageImg src="/career/hf_droniada.jpg" alt="High Flyers team" />
       <LtaDesc />
-      <div className="h-4" />
+      {spacer}
       <HfDesc />
+      {spacer}
     </PageWrapper>
   );
 }
