@@ -1,5 +1,5 @@
 type PagePProps = {
-  children: string | JSX.Element | JSX.Element[];
+  children: string | JSX.Element | JSX.Element[] | any;
 };
 
 export const PageP = ({ children }: PagePProps) => {

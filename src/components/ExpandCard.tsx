@@ -27,9 +27,10 @@ export const ExpandCard = ({
         ) : null}
         <div>
           <h1 className="text-xl md:text-2xl">{title}</h1>
-          <p className="text-lg md:text-xl text-justify">{desc}</p>
+          <p className="text-lg md:text-xl ">{desc}</p>
         </div>
         <button
+          name="expand"
           className="bg-opacity-30 rounded-md  bg-black ml-auto mr-0 text-4xl p-1 my-auto"
           onClick={() => {
             setOpen((prev) => !prev);
